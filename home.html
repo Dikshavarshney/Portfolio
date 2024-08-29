@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="main.css">
+
+    <style>
+        .glass {
+            background: rgba(255, 255, 255, 0.086);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.152);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.053);
+        }
+
+    </style>
+</head>
+<body class="bg-black min-h-screen w-full md:overflow-hidden opacity-90 animate-home">
+    <div class="absolute bottom-[10%] left-0 w-[20%] h-[200px] opacity-50 bg-blue blur-100px -z-10 "></div>
+    <div class="absolute top-[10%] right-0 w-[20%] h-[200px] opacity-60 bg-green blur-130px -z-10 "></div>
+
+    <nav class="h-[10%] w-full fixed top-0 z-20 bg-black">
+        <ul class="flex flex-row justify-end gap-8 pt-3 pr-5 text-gray-300 text-xl font-intro ">
+            <a href="./index.html">Start</a>
+            <a href="./home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="./skill.html">Skill</a>
+            <a href="./project.html">Project</a>
+            <a href="./contact.html">Contact</a>
+        </ul>
+    </nav>
+
+    <div class="glass flex flex-col md:flex-row justify-center md:justify-between md:w-[90%] w-[80%] h-fit absolute top-0 md:m-[5%] m-[10%]  rounded-3xl">
+        
+        <div class=" text-2xl font-intro text-gray-200 mt-[8%] ml-[5%] leading-10 opacity-70 ">
+            
+            It all started with
+                <span class="font-intro text-3xl md:text-5xl text-cyan-800 ">void main( ) { <br>
+                    <h3 class="font-intro ml-[8%] ">printf("Hello World!!"); </h3>}
+                <br>
+                </span>
+                <div class="font-intro text-center md:text-start text-xl md:text-2xl">
+                    <br> welcome!<br> Step into my world of creativity and innovation.
+                    <br>Here you'll discover my Skills, Projects and work.<br>I'm excited to share my journey with you...!!
+                </div>
+        </div> 
+
+        <div class="w-[70%] m-[10%] ml-36 md:w-[50%] md:-mr-[9%] md:m-4"> 
+            <img src="./images/homeImgStack/main.jpg" class="w-[80%] rounded-3xl">
+        </div>
+    </div>
+ 
+</body>
+</html>
